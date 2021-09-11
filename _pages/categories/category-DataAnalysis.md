@@ -1,7 +1,7 @@
 ---
-title: "데이터분석"
+title: "ML"
 layout: archive
-permalink: categories/DA
+permalink: categories/ML
 author_profile: true
 sidebar_main: true
 ---
