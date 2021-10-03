@@ -1,6 +1,6 @@
 ---
-title : "1. 통계학을 공부하는 이유, 모집단과 표본"
-excerpt : "1. 통계학을 공부하는 이유, 모집단과 표본"
+title :"[기초통계학]1. 통계학을 공부하는 이유, 모집단과 표본"
+excerpt :"1. 통계학을 공부하는 이유, 모집단과 표본"
 
 categories:
     - STC
@@ -11,7 +11,7 @@ toc : true
 toc_sticky: true
 
 date: 2021-10-03
-# last_modified_at: 2021-09-11
+last_modified_at: 2021-10-03
 ---
 ## 1. 통계학을 공부하는 이유
 
