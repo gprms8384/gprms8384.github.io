@@ -3,9 +3,9 @@ title : "1. 통계학을 공부하는 이유, 모집단과 표본"
 excerpt : "1. 통계학을 공부하는 이유, 모집단과 표본"
 
 categories:
-    - Statistics
+    - STC
 tages:
-    - Statistics
+    - STC
 
 toc : true
 toc_sticky: true

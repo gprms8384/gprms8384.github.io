@@ -1,7 +1,7 @@
 ---
-title: "Statistics"
+title: "기초통계학"
 layout: archive
-permalink: categories/Statistics
+permalink: categories/STC
 author_profile: true
 sidebar_main: true
 ---
