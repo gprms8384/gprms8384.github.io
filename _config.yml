@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Just-Do-it! with Nonna"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "논나"
+name                     : "데이터 초보의 공부하는 Blog"
 description              : "안녕하세요. 파이썬을 통한 분석, 및 시각화 머신러닝을 공부중입니다."
 url                      : "https://gprms8384.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
