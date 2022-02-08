@@ -58,5 +58,13 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <ul>
+                
+            {% for category in site.categories %}
+                {% if category[0] == "KDL" %}
+                    <li><a href="/categories/KDL" class="">케라스딥러닝 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
       </li>
 </nav>
