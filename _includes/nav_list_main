@@ -21,6 +21,22 @@
         <ul>
                 
             {% for category in site.categories %}
+                {% if category[0] == "Den" %}
+                    <li><a href="/categories/Den" class="">개발환경 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+                
+            {% for category in site.categories %}
+                {% if category[0] == "Python" %}
+                    <li><a href="/categories/Python" class="">파이썬(Python) ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+                
+            {% for category in site.categories %}
                 {% if category[0] == "ML" %}
                     <li><a href="/categories/ML" class="">머신러닝 ({{category[1].size}})</a></li>
                 {% endif %}
