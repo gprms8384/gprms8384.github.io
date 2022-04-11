@@ -83,4 +83,13 @@
             {% endfor %}
         </ul>
       </li>
+      <ul>
+                
+        {% for category in site.categories %}
+            {% if category[0] == "NLP" %}
+                <li><a href="/categories/NLP" class="">자연어처리(NLP) ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+  </li>
 </nav>
