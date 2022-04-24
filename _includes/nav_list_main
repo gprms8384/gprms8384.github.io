@@ -17,7 +17,7 @@
                 {% endif %}
             {% endfor %}
         </ul>
-        <span class="nav__sub-title">Study</span>
+        <span class="nav__sub-title">System Settings</span>
         <ul>
                 
             {% for category in site.categories %}
@@ -26,6 +26,7 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <span class="nav__sub-title">통계 및 Basic ML</span>
         <ul>
                 
             {% for category in site.categories %}
@@ -53,14 +54,6 @@
         <ul>
                 
             {% for category in site.categories %}
-                {% if category[0] == "HML" %}
-                    <li><a href="/categories/HML" class="">핸즈온 머신러닝 ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul>
-                
-            {% for category in site.categories %}
                 {% if category[0] == "STC" %}
                     <li><a href="/categories/STC" class="">기초통계학 ({{category[1].size}})</a></li>
                 {% endif %}
@@ -74,6 +67,23 @@
                 {% endif %}
             {% endfor %}
         </ul>
+        <span class="nav__sub-title">딥러닝(DeepLearning)</span>
+        <ul>
+                
+            {% for category in site.categories %}
+                {% if category[0] == "Torch" %}
+                    <li><a href="/categories/Torch" class="">파이토치 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+                
+            {% for category in site.categories %}
+                {% if category[0] == "HML" %}
+                    <li><a href="/categories/HML" class="">핸즈온 머신러닝 ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
         <ul>
                 
             {% for category in site.categories %}
@@ -82,14 +92,22 @@
                 {% endif %}
             {% endfor %}
         </ul>
-      </li>
-      <ul>
+        <ul>
                 
-        {% for category in site.categories %}
-            {% if category[0] == "NLP" %}
-                <li><a href="/categories/NLP" class="">자연어처리(NLP) ({{category[1].size}})</a></li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+            {% for category in site.categories %}
+                {% if category[0] == "NLP" %}
+                    <li><a href="/categories/NLP" class="">자연어처리(NLP) ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <ul>
+                
+            {% for category in site.categories %}
+                {% if category[0] == "CV" %}
+                    <li><a href="/categories/CV" class="">Computer Vision ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+      </li>
   </li>
 </nav>
